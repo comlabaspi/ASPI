@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            My New Webpage
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <div id="datetime-display" class="datetime-box"></div>
+            <div class="theme-switch-container">
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle" aria-label="Toggle dark mode">
+                    <span class="slider round"></span>
+                </label>
+                <span id="theme-label" class="theme-label" aria-live="polite">Light Mode</span>
+            </div>
+        </nav>
+        <nav class="navbar">
+            <a href="index.html" class="nav-btn">Home</a>
+            <a href="about.html" class="nav-btn">About</a>
+            <a href="contact.html" class="nav-btn">Contact</a>
+            <a href="hr-management.html" class="nav-btn">HR Management</a>
+            <a href="gallery.html" class="nav-btn">Gallery</a>
+            <a href="student-corner.html" class="nav-btn">Student Corner</a>
+        </nav>
+        <main class="content">
+            <h1> My website here </h1>
+            <h6> Hello World </h6>
+            <button onclick="changeBackgroundColor()">Change Background Color</button>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>

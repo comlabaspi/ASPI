@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HR Management</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div id="datetime-display" class="datetime-box"></div>
+            <div class="theme-switch-container">
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle" aria-label="Toggle dark mode">
+                    <span class="slider round"></span>
+                </label>
+                <span id="theme-label" class="theme-label" aria-live="polite">Light Mode</span>
+            </div>
+        </nav>
+        <nav class="navbar">
+            <a href="index.html" class="nav-btn">Home</a>
+            <a href="about.html" class="nav-btn">About</a>
+            <a href="contact.html" class="nav-btn">Contact</a>
+            <a href="hr-management.html" class="nav-btn active-nav" aria-current="page">HR Management</a>
+            <a href="gallery.html" class="nav-btn">Gallery</a>
+            <a href="student-corner.html" class="nav-btn">Student Corner</a>
+        </nav>
+
+        <main class="hr-page">
+            <section class="hr-hero">
+                <div class="hr-hero-content">
+                    <p class="hr-eyebrow">People. Purpose. Performance.</p>
+                    <h1>HR Management</h1>
+                    <p class="hr-hero-text">Empower every employee, simplify daily operations, and build a stronger workplace with one connected people-management platform.</p>
+                    <a class="hr-primary-btn" href="#key-features">Explore Key Features</a>
+                </div>
+                <div class="hr-hero-panel" aria-label="HR management overview">
+                    <div class="hr-stat"><strong>1,240</strong><span>Employees</span></div>
+                    <div class="hr-stat"><strong>96%</strong><span>Attendance</span></div>
+                    <div class="hr-stat"><strong>18</strong><span>Open Positions</span></div>
+                </div>
+            </section>
+
+            <section id="key-features" class="hr-section">
+                <div class="hr-section-heading">
+                    <p class="hr-eyebrow">Key Features</p>
+                    <h2>Everything your HR team needs</h2>
+                </div>
+                <div class="feature-grid">
+                    <article class="feature-card">
+                        <span class="feature-icon" aria-hidden="true">01</span>
+                        <h3>Employee Management</h3>
+                        <p>Maintain employee profiles, departments, documents, contracts, and organizational records from one secure place.</p>
+                        <a class="feature-link" href="hr-employee-management.html">Open feature →</a>
+                    </article>
+                    <article class="feature-card">
+                        <span class="feature-icon" aria-hidden="true">02</span>
+                        <h3>Attendance & Leave</h3>
+                        <p>Track attendance, working hours, leave requests, approvals, holidays, and shift schedules with complete clarity.</p>
+                        <a class="feature-link" href="hr-attendance-leave.html">Open feature →</a>
+                    </article>
+                    <article class="feature-card">
+                        <span class="feature-icon" aria-hidden="true">03</span>
+                        <h3>Payroll Management</h3>
+                        <p>Manage salaries, allowances, deductions, payslips, tax information, and monthly payroll processing efficiently.</p>
+                        <a class="feature-link" href="hr-payroll-management.html">Open feature →</a>
+                    </article>
+                    <article class="feature-card">
+                        <span class="feature-icon" aria-hidden="true">04</span>
+                        <h3>Recruitment</h3>
+                        <p>Post openings, collect applications, organize candidates, schedule interviews, and simplify the hiring workflow.</p>
+                        <a class="feature-link" href="hr-recruitment.html">Open feature →</a>
+                    </article>
+                    <article class="feature-card">
+                        <span class="feature-icon" aria-hidden="true">05</span>
+                        <h3>Performance Reviews</h3>
+                        <p>Set goals, collect feedback, track progress, and conduct fair employee evaluations that support continuous growth.</p>
+                        <a class="feature-link" href="hr-performance-reviews.html">Open feature →</a>
+                    </article>
+                    <article class="feature-card">
+                        <span class="feature-icon" aria-hidden="true">06</span>
+                        <h3>Training & Development</h3>
+                        <p>Discover learning opportunities, assign courses, monitor completion, and strengthen skills across the organization.</p>
+                        <a class="feature-link" href="hr-training-development.html">Open feature →</a>
+                    </article>
+                </div>
+            </section>
+
+            <section class="aspi-section" aria-labelledby="aspi-heading">
+                <div class="aspi-heading">
+                    <p class="hr-eyebrow">Training & Education</p>
+                    <h2 id="aspi-heading">Building Skills for Future Careers</h2>
+                    <p>ASPI is committed to practical, technology-focused training that develops confident and career-ready human resources.</p>
+                </div>
+
+                <div class="aspi-content-grid">
+                    <article class="aspi-panel">
+                        <h3>Diploma in Engineering</h3>
+                        <p>Four-year diploma programs combine theory with practical learning to prepare students for professional and industry roles.</p>
+                        <ul>
+                            <li><strong>Computer Science & Technology (CST)</strong><br>Software development, hardware, networking, and programming.</li>
+                            <li><strong>Electrical Technology (ET)</strong><br>Power generation, transmission, distribution, circuits, and electrical devices.</li>
+                        </ul>
+                        <p class="aspi-note">Current academic session: 2024-2027</p>
+                    </article>
+
+                    <article class="aspi-panel">
+                        <h3>NSDA Skill Development Courses</h3>
+                        <ul class="aspi-courses">
+                            <li>Computer Operation</li>
+                            <li>Graphic Design</li>
+                            <li>Graphic Design for Freelancing</li>
+                            <li>Electrical Installation & Maintenance</li>
+                            <li>AutoCAD 2D & 3D</li>
+                            <li>Consumer Electronics</li>
+                        </ul>
+                        <p class="aspi-note">Course batches, seats, schedules, and admission requirements vary.</p>
+                        <a class="aspi-link" href="https://www.aspi.edu.bd/" target="_blank" rel="noopener noreferrer">Visit ASPI Website →</a>
+                    </article>
+                </div>
+            </section>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>

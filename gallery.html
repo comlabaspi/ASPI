@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ASPI Gallery</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div id="datetime-display" class="datetime-box"></div>
+            <div class="theme-switch-container">
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle" aria-label="Toggle dark mode">
+                    <span class="slider round"></span>
+                </label>
+                <span id="theme-label" class="theme-label" aria-live="polite">Light Mode</span>
+            </div>
+        </nav>
+        <nav class="navbar">
+            <a href="index.html" class="nav-btn">Home</a>
+            <a href="about.html" class="nav-btn">About</a>
+            <a href="contact.html" class="nav-btn">Contact</a>
+            <a href="hr-management.html" class="nav-btn">HR Management</a>
+            <a href="gallery.html" class="nav-btn active-nav" aria-current="page">Gallery</a>
+            <a href="student-corner.html" class="nav-btn">Student Corner</a>
+        </nav>
+
+        <main class="gallery-page">
+            <header class="gallery-hero">
+                <p class="hr-eyebrow">ASPI Campus & Activities</p>
+                <h1>Photo & Video Gallery</h1>
+                <p>Explore campus life, practical training, and events at Ashhab Siraj Polytechnic Institute.</p>
+            </header>
+
+            <section class="gallery-section" aria-labelledby="photos-heading">
+                <div class="gallery-heading">
+                    <div>
+                        <p class="hr-eyebrow">From ASPI</p>
+                        <h2 id="photos-heading">Photos</h2>
+                    </div>
+                    <a class="aspi-link" href="https://www.aspi.edu.bd/" target="_blank" rel="noopener noreferrer">Visit official website →</a>
+                </div>
+                <div class="gallery-grid">
+                    <a class="gallery-card" href="https://www.aspi.edu.bd/assets/campus-1.webp" target="_blank" rel="noopener noreferrer">
+                        <img src="https://www.aspi.edu.bd/assets/campus-1.webp" alt="Ashhab Siraj Polytechnic Institute campus" loading="lazy">
+                        <span>Our Campus</span>
+                    </a>
+                    <a class="gallery-card" href="https://www.aspi.edu.bd/assets/campus-2.webp" target="_blank" rel="noopener noreferrer">
+                        <img src="https://www.aspi.edu.bd/assets/campus-2.webp" alt="ASPI practical training activities" loading="lazy">
+                        <span>Training Activities</span>
+                    </a>
+                    <a class="gallery-card" href="https://www.aspi.edu.bd/assets/campus-3.webp" target="_blank" rel="noopener noreferrer">
+                        <img src="https://www.aspi.edu.bd/assets/campus-3.webp" alt="Technical education seminar at ASPI" loading="lazy">
+                        <span>Technical Education Seminar</span>
+                    </a>
+                    <a class="gallery-card" href="https://www.aspi.edu.bd/assets/campus-5.jpg" target="_blank" rel="noopener noreferrer">
+                        <img src="https://www.aspi.edu.bd/assets/campus-5.jpg" alt="ASPI students" loading="lazy">
+                        <span>Our Students</span>
+                    </a>
+                </div>
+            </section>
+
+            <section class="video-section" aria-labelledby="videos-heading">
+                <div>
+                    <p class="hr-eyebrow">Watch & Learn</p>
+                    <h2 id="videos-heading">Videos</h2>
+                    <p>The current ASPI website gallery lists photos and does not provide video entries. Check the official website for newly published media.</p>
+                </div>
+                <a class="hr-primary-btn" href="https://www.aspi.edu.bd/" target="_blank" rel="noopener noreferrer">View ASPI media ↗</a>
+            </section>
+            <p class="gallery-sync-note">Photos are served from ASPI’s official website. The notice ticker shows the latest notices available when this page was prepared; automatic updates require a feed/API from ASPI that allows cross-site access.</p>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
